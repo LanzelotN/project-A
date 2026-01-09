@@ -1,10 +1,19 @@
+/*Universal Style*/
+
 *{
     margin:0;
     padding:0;
     box-sizing:border-box;
 }
 
-/*Universal Styles*/
+
+
+.font-inter{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+}
+
+/*Individual Styles*/
 
 .btn{
     background-color: #30B868;
@@ -16,8 +25,6 @@
     cursor: pointer;
 
 }
-
-/*Individual Styles*/
 
 nav{
     width:90%;
@@ -43,10 +50,10 @@ nav .options{
 .banner{
     padding: 115.5px 120px 179.5px 120px;
     text-align: center;
-
-    max-width: 2042px;
     justify-content: center;
     background-image: url("assets/hero-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .badge img{
@@ -303,31 +310,31 @@ nav .options{
     padding-top: 10px;
 }
 
-.icons .icon-1{
+.icons #icon-1{
     margin-right: 5px;
 }
 
 
 
-.icons .icon-2{
+.icons #icon-2{
     margin-right: 5px;
 }
 
-.icons .icon-3{
+.icons #icon-3{
     margin-right: 5px;
 }
 
-.icon-1:hover{
+#icon-1:hover{
     transition: 2s ease;
     transform: scale(1.5,1.5);
 }
 
-.icon-2:hover{
+#icon-2:hover{
     transition: 2s ease;
     transform: scale(1.5,1.5);
 }
 
-.icon-3:hover{
+#icon-3:hover{
     transition: 2s ease;
     transform: scale(1.5,1.5);
 }
