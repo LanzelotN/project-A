@@ -75,22 +75,27 @@ nav .options{
     font-weight: 400px;
     line-height: 24px;
     letter-spacing: 0;
-    margin-top:24px;
-    margin-bottom: 35px;
     width: 50%;
-    margin-left: 400px;
-    width:50%;
+    max-width:1360px;
+    margin: 24px auto 35px;
 }
 
 .extra-text h1{
     font-style: bold;
     text-align: center;
     font-size: 40px;
+    padding-top: 30px;
 }
 
 .extra-text p{
     text-align:center;
     font-size: 14px;
     color:#627382;
+    padding-top: 16px;
 }
 
+.problems{
+    width:71%;
+    max-width:1360px;
+    margin: 0 auto;
+}
