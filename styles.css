@@ -13,6 +13,7 @@
     border-radius:5px;
     color: white;
     font-style: none;
+    cursor: pointer;
 
 }
 
@@ -25,6 +26,7 @@ nav{
     display:flex;
     justify-content: space-between;
     align-items: center;
+    cursor: pointer;
 }
 
 nav img{
@@ -56,6 +58,7 @@ nav .options{
     padding:8px 12px 8px 12px;
     background-color: white;
     border-radius: 20px;
+    cursor: pointer;
 }
 
 .banner h1{
@@ -92,7 +95,17 @@ nav .options{
     color: white;
     font-style: none;
     margin-right: 10px;
+        cursor: pointer;
 
+}
+
+.button .btn1:hover{
+    transition: 2s ease;
+    transform: scale(1.1,1.1);
+}
+
+.button .btn1 img{
+    vertical-align: middle;
 }
 
 .button .btn2{
@@ -102,7 +115,21 @@ nav .options{
     border-radius:5px;
     color: white;
     font-style: none;
+        cursor: pointer;
 }
+
+.button .btn2:hover{
+    transition: 2s ease;
+    transform: scale(1.1,1.1);
+
+}
+
+.button .btn2 img{
+    height: 20px;
+    width: 20px;
+    vertical-align: middle;
+}
+
 
 .extra-text h1{
     font-style: bold;
@@ -132,6 +159,11 @@ nav .options{
     padding: 24px;
     max-width: 322px;
     box-shadow: 0 4px 50px 0 #0000002c;
+}
+
+.problem-box:hover{
+    transition: 2s ease;
+    transform: scale(1.1,1.1);
 }
 
 .problems .problem-box img{
@@ -246,3 +278,77 @@ nav .options{
     font-size: 16px;
     color:#627382;
 }
+
+.footer-keeper{
+    margin-top: 120px;
+    background-color: #001931;
+    display: flex;
+    justify-content: space-between;
+    padding: 120px 120px;
+}
+
+.footer-keeper p{
+    color: white;
+    font-size: 20px;
+}    
+.footer-keeper .socials img{
+    height: 20px;
+    width: 20px;
+}
+
+.icons{
+    display: flex;
+    gap: 10px;
+    cursor:pointer;
+    padding-top: 10px;
+}
+
+.icons .icon-1{
+    margin-right: 5px;
+}
+
+
+
+.icons .icon-2{
+    margin-right: 5px;
+}
+
+.icons .icon-3{
+    margin-right: 5px;
+}
+
+.icon-1:hover{
+    transition: 2s ease;
+    transform: scale(1.5,1.5);
+}
+
+.icon-2:hover{
+    transition: 2s ease;
+    transform: scale(1.5,1.5);
+}
+
+.icon-3:hover{
+    transition: 2s ease;
+    transform: scale(1.5,1.5);
+}
+
+
+
+hr{
+    border-top: 1px solid rgba(128, 128, 128, 0.096);
+    opacity: 0.3;
+    width: 90%; 
+    margin: auto; 
+    margin-bottom: 30px;
+}
+
+.credits{
+    background-color: #001931;
+    text-align:center;
+    padding: 40px;
+    /*border-top: 1px solid rgba(128, 128, 128, 0.137) ;*/
+    color: white;
+    font-size: 16px;
+
+}
+
