@@ -160,6 +160,89 @@ nav .options{
     padding-top: 44px;
     gap: 60px;
     text-align: center;
+}
+
+.knowledge .k-info{
+    text-align: left;
+}
+
+.knowledge .k-info h4{
+    color:#30B868;
+    font-size: 16px;
+    padding: 102px 0px 16px 30px;
+}
+
+.knowledge .k-info h1{
+    max-width: 700px;
+    font-size: 46px;
+    padding: 16px 0px 16px 30px;
+}
+
+.knowledge .k-info p{
+    max-width: 700px;
+    font-size: 16px;
+    padding: 16px 0px 40px 30px;
+    color:#627382;
+}
+
+.knowledge .k-info li{
+    list-style:none;
+    font-size: 16px;
+    padding: 16px 0px 0px 30px;
+    color:#627382;
+
+}
+
+.knowledge .k-info img{
+    vertical-align: middle;
+    padding-right:6px;
+}
+
+.clarity{
+    padding-top: 120px;
+}
+
+.clarity .clarity-container{
+    width: 71%;
+    max-width: 1360px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #F7F6F2;
+    padding: 80px 40px;
+}
+
+.clarity .clarity-container .clarity-heading h1{
+    font-size:40px;
+    padding: 80px 40px 16px 40px;
+}
+
+.clarity .clarity-container .clarity-heading p{
+    font-size: 16px;
+    color:#627382;
+    width: 40%;
+    max-width: 1360px;
+    margin: 0 auto;
+    padding-bottom: 24px;
+}
 
 
+.clarity .clarity-container .btn3{
+    display: inline-block;
+    background-color: #30B868;
+    padding: 12px 24px;
+    border-radius: 5px;
+    color: white;
+    border: none;
+    margin-bottom: 16px;
+    cursor: pointer;
+    
+}
+
+.clarity .clarity-container .btn3 img{
+    vertical-align: middle;
+}
+
+.clarity .clarity-container .desclaimer{
+    font-size: 16px;
+    color:#627382;
 }
