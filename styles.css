@@ -51,7 +51,7 @@ nav .options{
     padding: 115.5px 120px 179.5px 120px;
     text-align: center;
     justify-content: center;
-    background-image: url("assets/hero-bg.png");
+    background-image: url("./assets/hero-bg.png");
     background-repeat: no-repeat;
     background-size: cover;
 }
