@@ -31,6 +31,10 @@ nav{
     align-items: center;
 }
 
+nav img{
+    margin-top: 10px;
+}
+
 nav .options{
     display:flex;
     list-style:none;
@@ -81,8 +85,12 @@ nav .options{
 .extra-text h1{
     font-style: bold;
     text-align: center;
+    font-size: 40px;
 }
 
 .extra-text p{
-    
+    text-align:center;
+    font-size: 14px;
+    color:#627382;
 }
+
